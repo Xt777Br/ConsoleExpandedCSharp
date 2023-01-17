@@ -42,12 +42,3 @@ class ConsoleExpanded
     Console.BackgroundColor=colors[DBColor];
   }
 }
-class Program
-{
-  public static void Main()
-  {
-    ConsoleExpanded.ColorWriteLine("Hello","Green","Red");
-    Console.Write("Yeah boy");
-    ConsoleExpanded.ColorWrite("Hello","Green","Red");
-  }
-}
